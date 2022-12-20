@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="90"
+            android:background="#3F51B5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="55"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="49"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tV1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:text="X1 = "
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5" />
+
+                <TextView
+                    android:id="@+id/tV2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:text="d = "
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5" />
+
+                <TextView
+                    android:id="@+id/tV3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:text="n = "
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5" />
+
+                <TextView
+                    android:id="@+id/tV4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:text="Sn = "
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="49"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/eT1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:id="@+id/eT2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5" />
+
+                <TextView
+                    android:id="@+id/tV5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5" />
+
+                <TextView
+                    android:id="@+id/tV6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10" />
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35">
+
+                <RadioButton
+                    android:id="@+id/rB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#3F51B5"
+                    android:text="geometric"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#3F51B5"
+                    android:text="arithmetic"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="12.5" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:backgroundTint="#3F51B5"
+                android:text="Update"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="12.5" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+</LinearLayout>
