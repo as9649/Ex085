@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                         for (int i = 1; i < arr.length; i++)
                             arr[i] = String.format("%s", (x * Math.pow(d,i)));
                     }
-                    MyAdapter myAdapter=new MyAdapter(getApplicationContext(), tV5, tV6, arr, rB1, rB2, x, d);
+                    MyAdapter myAdapter=new MyAdapter(getApplicationContext(), tV5, tV6, arr, rB1, rB2);
                     recyclerView.setAdapter(myAdapter);
                     recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
                 }
